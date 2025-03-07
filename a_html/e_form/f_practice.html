@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>f_practice</title>
+</head>
+
+<body bgcolor="5f5f5f">
+  <h2>롯데 자이언츠 선수단 응원메시지 이벤트</h2>
+
+  <form action="">
+    <fieldset>
+      <legend>선수단을 응원하고 경품 받자!</legend>
+      <ul>
+        <li>
+          <label>
+            아이디
+            <input type="text" placeholder="4자 ~ 10자 사이, 공백없이" autofocus required />
+          </label>
+        </li>
+
+        <li>
+          <label>
+            이메일
+            <input type="email" required>
+          </label>
+        </li>
+
+        <li>
+          <label>
+            경품 목록
+            <select id="gift-list" name="gift-list">
+              <option value="1">선수단 사인볼</option>
+              <option value="2">홈 레플리카 유니폼</option>
+              <option value="3">원정 레플리카 유니폼</option>
+              <option value="4">홈 경기 티켓 2매</option>
+            </select>
+          </label>
+        </li>
+
+        <li>
+          <label for="memo">메모</label>
+          <textarea name="memo" id="memo" placeholder="선수단에게 응원의 메시지를 보내주세요." cols="40" rows="4"></textarea>
+        </li>
+      </ul>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>이벤트 결과와 새로운 소식</legend>
+      <input type="radio" name="mail" id="yesmail" />
+      <label for="yesmail">메일 수신</label>
+      <input type="radio" name="mail" id="nomail" checked />
+      <label for="nomail">메일 수신 안 함</label>
+    </fieldset>
+
+    <input type="submit" value="이벤트 신청하기">
+    <input type="reset" value="취소">
+  </form>
+
+
+
+</body>
+
+</html>
