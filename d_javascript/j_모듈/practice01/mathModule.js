@@ -11,7 +11,7 @@ export default function subtract(a, b) {
   return a - b;
 }
 
-export let multiply = function (a, b) {
+export let multiply = function(a, b) {
   return a * b;
 }
 
