@@ -19,7 +19,7 @@ function work() {
   // for (let i = 0; i < 9999999999; i++) {}
 
   const end = Date.now();
-  
+
   console.log(end - start + 'ms');
 }
 
@@ -52,7 +52,7 @@ function callbackWork(callback) {
   setTimeout(() => {
     const start = Date.now();
 
-    for (let i = 0; i < 9999999999; i++) {}
+    for (let i = 0; i < 9999999999; i++) { }
 
     const end = Date.now();
 
