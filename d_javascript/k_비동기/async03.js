@@ -53,7 +53,7 @@ const myPromise = new Promise((resolve, reject) => {
 // cf) 메서드 체이닝(연결) 방식을 사용
 myPromise
   // 첫 번째 실행문
-  .then((result) => { 
+  .then((result) => {
     console.log(result);
     return '다음 수행 시 필요한 데이터';
   })
