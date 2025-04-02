@@ -9,6 +9,8 @@ import UseStatePractice from './a_useState/Practice';
 import UseRef01 from './b_useRef/UseRef01';
 import UseRef02 from './b_useRef/UseRef02';
 import UseRefPractice from './b_useRef/Practice';
+import UseEffect01 from './c_useEffect/UseEffect01';
+import UseEffect02 from './c_useEffect/UseEffect02';
 
 const h2Style = {
   backgroundColor: "black",
@@ -45,6 +47,10 @@ function Index() {
       <UseRef01 /> <hr />
       <UseRef02 /> <hr />
       <UseRefPractice />
+
+      <h2 style={h2Style}>리액트 Hooks - useEffect</h2>
+      <UseEffect01 /> <hr />
+      <UseEffect02 /> <hr />
 
 
 
