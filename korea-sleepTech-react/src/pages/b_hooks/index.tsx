@@ -43,7 +43,7 @@ function index() {
         justifyContent: 'center',
         alignItems: 'center'
       }}>
-        <Practice01 />
+        {/* <Practice01 /> */}
       </div>
 
 
