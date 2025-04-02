@@ -8,7 +8,7 @@ interface IUser {
   name: string;
 }
 
-function UserState05() {
+function UseState05() {
   const [count, setCount] = useState<number>(0);
   const [name, setName] = useState<string>("");
   const [isVisiable, setIsVisiable] = useState<boolean>(false);
@@ -94,4 +94,4 @@ function UserState05() {
   );
 }
 
-export default UserState05;
+export default UseState05;
