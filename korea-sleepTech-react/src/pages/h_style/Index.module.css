@@ -1,0 +1,13 @@
+/* Index.module.css */
+
+.wrapper {
+  background-color: black;
+  color: white;
+  /* 1rem이 기본 16px */
+  padding: 1rem;
+}
+
+.text {
+  color: lightblue;
+  background-color: lightcoral;
+}
